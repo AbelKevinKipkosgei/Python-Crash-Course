@@ -99,3 +99,14 @@ if 'pomegranate' in favorite_fruits:
     print(f"\nYou really like pomegranate!")
 if 'lemon' in favorite_fruits:
     print(f"\nYou really like lemons!")
+
+# Hello Admin
+usernames = ['Abelkevin','johndoe','sarahwatkins','annejones','admin']
+if usernames:
+    for username in usernames:
+        if username.lower() == 'admin':
+            print(f"\nHello {username}, would you like to see a status report?")
+        else:
+            print(f"\nHello {username.title()}, thank you for logging in again.")
+else:
+    print(f"\nWe need to find some users!")
