@@ -1,4 +1,4 @@
-# # Name cases exercises to practice variables in Python
+# Name cases exercises to practice variables in Python
 # name = "Abel"
 # message = f"Hello {name}, would you like to learn some Python today?"
 # print(message)
